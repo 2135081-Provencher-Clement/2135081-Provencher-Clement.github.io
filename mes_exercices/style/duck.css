@@ -1,0 +1,21 @@
+#titrePage{
+    color: red;
+    font-size: 300%;
+    text-align: center;
+}
+p{ 
+    text-align: justify;
+}
+#paragraphe1::first-letter{
+    color: purple;
+}
+p::first-letter{
+    font-style: italic;
+    font-size: 200%;
+}
+.paragraphe:not(#paragraphe1)::first-letter{
+    color: green;
+}
+h2:hover{
+    color: aquamarine;
+}

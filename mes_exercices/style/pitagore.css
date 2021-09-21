@@ -1,0 +1,26 @@
+#titreetsteeven {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+
+
+    padding: 10px;
+    height: 250px;
+    background-color:var(--couleurTitre);
+}
+#steeven {
+    flex-basis: 20%;
+}
+:root{
+    --couleurTitre:#FFF000;
+}
+#citation{
+    align-self: flex-end;
+}
+#nom {
+    align-self: flex-start;
+}

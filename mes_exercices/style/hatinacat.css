@@ -1,0 +1,33 @@
+#contents {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 3fr 1fr;
+    min-height: 800px;
+    grid-template-areas:
+    "na he he he he he"
+    "na ar ar ar ar as"
+    "na fo fo fo fo fo";
+}
+.items {
+
+}
+nav {
+    grid-area: na;
+    background-color: blanchedalmond;
+}
+header {
+    grid-area: he;
+    background-color: blueviolet;
+}
+article {
+    grid-area: ar;
+    background-color: cyan;
+}
+aside {
+    grid-area: as;
+    background-color: honeydew;
+}
+footer {
+    grid-area: fo;
+    background-color: chartreuse;
+}

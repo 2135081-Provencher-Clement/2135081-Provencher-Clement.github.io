@@ -24,3 +24,24 @@
 #nom {
     align-self: flex-start;
 }
+
+#citation {
+    transition:all;
+    transition-duration: 90s;
+    transition-delay: 2ms;
+    transform: rotate(360deg);
+}
+
+#titreetsteeven:hover {
+    transition:all;
+    transition-duration: 0ms;
+    transition-delay: 0ms;
+    transform: rotate(180deg);
+}
+
+#sommet:hover {
+    transition:all;
+    transition-duration: 3s;
+
+    transform: translateX(1000px);
+}

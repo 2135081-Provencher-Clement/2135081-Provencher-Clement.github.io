@@ -67,6 +67,7 @@ footer {
     text-align: center;
 }
 
+
 #articles {
     justify-content: flex-end;
     width: 100%;
@@ -83,6 +84,13 @@ footer {
 
 img {
     max-width: 500px;
+   
+}
+
+img:hover {
+    transition:all;
+    transition-duration: 10s;
+    transform: scale(125%);
 }
 
 #articles > a {
@@ -91,7 +99,15 @@ img {
 }
 
 #glacier:hover {
-    color:cornsilk;
+    transition: all;
+    transition-duration: 200ms;
+    transform: translateX(2000px);
+}
+
+.lien:hover {
+    transition:all;
+    transition-duration: 2s;
+    transform: scale(200%);
 }
 
 
